@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#FF6F00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="overlay_background">#99000000</color>
+    <color name="document_border_detected">#4CAF50</color>
+    <color name="document_border_not_detected">#F44336</color>
+    <color name="document_border_searching">#FFC107</color>
+    <color name="scan_bg">#FF000000</color>
+    <color name="btn_capture_bg">#FFFFFFFF</color>
+    <color name="btn_capture_ring">#1976D2</color>
+</resources>

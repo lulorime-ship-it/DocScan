@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="120dp"
+    android:layout_height="160dp"
+    android:layout_margin="4dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="2dp">
+
+        <ImageView
+            android:id="@+id/ivPageThumb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvPageNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:background="#99000000"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <CheckBox
+        android:id="@+id/cbSelect"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="top|start"
+        android:layout_margin="4dp"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:drawableStart="?android:attr/listChoiceIndicatorMultiple"
+        android:drawablePadding="0dp"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/selectedOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#334CAF50"
+        android:visibility="gone" />
+
+</FrameLayout>
