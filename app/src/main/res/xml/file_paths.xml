@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path
+        name="scan_images"
+        path="Pictures/DocScan/" />
+
+    <external-files-path
+        name="scan_pdfs"
+        path="Documents/DocScan/" />
+
+    <external-path
+        name="external_documents"
+        path="Documents/DocScan/" />
+
+    <external-path
+        name="external_downloads"
+        path="Download/DocScan/" />
+
+    <external-path
+        name="external_pictures"
+        path="Pictures/DocScan/" />
+
+    <files-path
+        name="internal_files"
+        path="." />
+
+    <cache-path
+        name="cache"
+        path="." />
+</paths>
